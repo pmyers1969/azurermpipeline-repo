@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'azurermpipeline-rg'
     location: 'Australia Southeast'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreateWebApp/azuredeploy.json'
+    csmFile: 'azuredeploy.json'
     overrideParameters: '-projectName PMLinkTemp -linkedTemplateUri https://raw.githubusercontent.com/pmyers1969/azurermpipeline-repo/master/linkedstorageaccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
