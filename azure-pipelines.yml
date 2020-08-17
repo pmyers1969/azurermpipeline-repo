@@ -20,6 +20,6 @@ steps:
     location: 'Australia Southeast'
     templateLocation: 'Linked artifact'
     csmFile: 'azuredeploy.json'
-    overrideParameters: '-projectName PMLinkTemp -linkedTemplateUri https://raw.githubusercontent.com/pmyers1969/azurermpipeline-repo/master/linkedstorageaccount.json'
+    overrideParameters: '-projectName pmlinktemp -linkedTemplateUri https://raw.githubusercontent.com/pmyers1969/azurermpipeline-repo/master/linkedstorageaccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
